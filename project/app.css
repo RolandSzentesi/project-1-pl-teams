@@ -1,0 +1,195 @@
+html {
+    background-image: url(pl-logo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: serif;
+    background-color: white;
+  }
+
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(244, 80, 80);
+    font-size: 80px;
+    font-family: cursive;
+}
+h3 {
+  color: beige;
+}
+
+h4 {
+  color: beige;
+}
+
+h6 {
+  color: beige;
+}
+
+p {
+  color: beige;
+}
+
+
+.button {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 275px 275px 275px 275px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: 275px 275px 275px 275px;
+  justify-content: center;
+  gap: 10px;
+  scroll-behavior: smooth;
+}
+
+#team-logo {
+  width: 75px;
+  height: 75px;
+}
+
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(229, 21, 21, 0.2);
+    overflow: hidden;
+    width: 275px;
+  }
+
+
+
+.card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        min-height: 250px;
+        font-size: large;
+}
+
+#back {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+
+#new-team{
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+#submit-button {
+  background-color: #FF4742;
+  border: 1px solid #FF4742;
+  text-align: center;
+}
+
+.form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 175px;
+  width: 275px;
+  align-items: center;
+}
+
+.new-card {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 275px;
+    background-color: #15172b;
+}
+
+.new-card body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+  font-size: large;
+}
+
+.remove {
+  float: right;
+}
